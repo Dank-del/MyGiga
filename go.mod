@@ -8,9 +8,9 @@ require (
 	github.com/anonyindian/gotgproto v1.0.0-beta08.0.20220813082126-f98d0f42e1d5
 	github.com/anonyindian/logger v1.0.0-alpha.3
 	github.com/go-git/go-git/v5 v5.4.2
-	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/gotd/td v0.68.1
 	github.com/joho/godotenv v1.4.0
+	github.com/peterbourgon/diskv/v3 v3.0.1
 )
 
 require (
@@ -27,6 +27,7 @@ require (
 	github.com/go-git/gcfg v1.5.0 // indirect
 	github.com/go-git/go-billy/v5 v5.3.1 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/google/btree v1.0.0 // indirect
 	github.com/gotd/ige v0.2.2 // indirect
 	github.com/gotd/neo v0.1.5 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
@@ -37,8 +38,6 @@ require (
 	github.com/klauspost/compress v1.15.9 // indirect
 	github.com/mattn/go-sqlite3 v1.14.15 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
-	github.com/onsi/ginkgo v1.16.5 // indirect
-	github.com/onsi/gomega v1.20.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
@@ -52,6 +51,7 @@ require (
 	golang.org/x/net v0.0.0-20220826154423-83b083e8dc8b // indirect
 	golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde // indirect
 	golang.org/x/sys v0.0.0-20220829200755-d48e67d00261 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gorm.io/driver/sqlite v1.3.6 // indirect
 	gorm.io/gorm v1.23.8 // indirect
