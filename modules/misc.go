@@ -80,6 +80,7 @@ func alive(ctx *ext.Context, u *ext.Update) error {
 	text := entityhelper.Bold(`
 The GIGA Userbot is currently up and working fine,
 Written using @gotgproto by @GIGADevs.
+This is a modified version by Dank-del (sayan@kaizoku.cyou)
 `)
 	ctx.EditMessage(u.EffectiveChat().GetID(), &tg.MessagesEditMessageRequest{
 		ID:       u.EffectiveMessage.ID,
